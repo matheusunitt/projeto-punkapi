@@ -1,0 +1,48 @@
+.wm-card {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+}
+
+.wm-card-image {
+  height: auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+  width: 300px;
+  border-right: 2px solid #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wm-card-content {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.wm-card-actions {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.wm-card-actions button { 
+  margin-right: .5em;
+  padding: 10px 20px;
+  border: none;
+  background: #ff5050;
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: ease-in .3s;
+  outline: 0;
+}
+
+.wm-card-actions button:hover {
+  background: #ff3434;
+  transition: ease-in .3s;
+}
